@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+body > *{
+    padding: 2rem;
+    border-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    border: 2px solid cyan;
+}
+header, 
+footer{
+    flex: 1 0 100%;
+}
+body > main{
+    flex: 1 0 60%;
+}
+body > aside{
+    flex: 1 1 auto;
+}

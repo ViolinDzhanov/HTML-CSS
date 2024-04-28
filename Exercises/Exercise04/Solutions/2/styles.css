@@ -1,0 +1,15 @@
+
+
+section{
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+section article{
+    flex: 0 0 200px;
+}
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}

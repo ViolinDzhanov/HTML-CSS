@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.3 Agbalumo;
+}
+
+body{
+    margin: 2em;
+}
+
+article{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #D5EBEA;
+    border: 2px solid black;
+}
+
+ main{
+  padding: 2em;
+  background: white;
+  display: flex;
+  gap: 2em;
+}
+
+main p:nth-child(2){
+    margin-top: 1em;
+}
+
+header h2{
+    text-align: center;
+    font-size: 40px;
+}
+header p{
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid #000;
+    font-size: 22px;
+    margin: 0 1em;
+}
+.left{
+    flex: 1 1 36%;
+    border: 2px solid #000;
+    padding: 1em;
+    text-indent: 1.5em;
+}
+
+.right{
+    font-size: 18px;
+    padding: 2em 2em 0  0;
+    text-indent: 2em;
+}
+
+img{
+    max-width: 265px;
+    height: auto;
+    margin-left: -20px;
+}
+
+h3{
+    flex-direction: row;
+    background: black;
+    color: #fff;
+    display: inline;
+    padding: 0 2em;
+    margin-bottom: 3em;
+}
+.bottom-h3{
+    background: white;
+}
+.bottom-footer p{
+    margin: 0.5em 2em;
+}

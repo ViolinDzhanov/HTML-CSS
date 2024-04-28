@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.viewport {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.viewport:nth-child(1) {
+    background-color: rgb(28, 208, 208);
+    
+}
+.viewport:nth-child(2) {
+    background-color: palevioletred;
+   
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card {
+    max-width: 300px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}

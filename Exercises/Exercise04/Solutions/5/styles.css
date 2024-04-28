@@ -1,0 +1,28 @@
+
+html{
+    margin: 2em;
+}
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+   
+}
+header h1{
+    text-transform: uppercase;
+   font-family: serif;
+    font-weight: bolder;
+    flex-grow: 1;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+   
+} 
+
+nav ul li{
+ list-style: none;
+color: green;
+}
+    

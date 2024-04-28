@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.galery{
+    margin: 2em;
+    display: flex;
+    align-items: center;
+}
+.galery ul{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.galery li{
+   border: 6px solid black;
+    list-style: none;
+    margin: 0.5em;
+    display: flex;
+}
+img{
+    
+    max-width: 200px;
+    height: auto;
+    padding: 1em;
+    align-self: center;
+}
